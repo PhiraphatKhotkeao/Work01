@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Beautiful phiraphat</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+        }
+
+        /* Set background gradient */
+        body {
+            background: linear-gradient(to right, #00b4d8, #006f8e);
+            color: white;
+            text-align: center;
+        }
+
+        /* Container for the whole page */
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Hero section */
+        .hero {
+            margin-top: 50px;
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        /* Call to action button */
+        .cta-btn {
+            background-color: #00b4d8;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .cta-btn:hover {
+            background-color: #0094b6;
+        }
+
+        /* Section for additional information */
+        .info {
+            margin-top: 50px;
+            max-width: 800px;
+            line-height: 1.6;
+        }
+
+        .info h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .info p {
+            font-size: 1.1rem;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 60px;
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        footer a {
+            color: #ffab00;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .hero {
+                font-size: 2rem;
+            }
+
+            .info h2 {
+                font-size: 1.5rem;
+            }
+
+            .cta-btn {
+                font-size: 1rem;
+                padding: 10px 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero">
+            Welcome to Our Amazing Website!
+        </div>
+
+        <!-- Call to Action Button -->
+        <button class="cta-btn">Get Started</button>
+
+        <!-- Information Section -->
+        <div class="info">
+            <h2>What We Do</h2>
+            <p>We create beautiful, user-friendly websites that help businesses thrive online. Our team of experienced developers and designers work together to bring your vision to life. Whether you're starting a new project or upgrading an existing site, we ensure your website will stand out and perform flawlessly.</p>
+            <p>Our process is simple, and our focus is on delivering high-quality results that meet your needs. Get in touch with us today to discuss your next project!</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Beautiful Website. All Rights Reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+</body>
+
+</html>
